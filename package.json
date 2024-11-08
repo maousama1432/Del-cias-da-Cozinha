@@ -1,0 +1,22 @@
+{
+  "name": "receita",
+  "version": "1.0.0",
+  "description": "Aplicativo de receitas organizadas por categoria.",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maousama1432/Del-cias-da-Cozinha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maousama1432/Del-cias-da-Cozinha/issues"
+  },
+  "homepage": "https://github.com/maousama1432/Del-cias-da-Cozinha#readme",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
