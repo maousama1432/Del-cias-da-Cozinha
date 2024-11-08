@@ -34,13 +34,13 @@
     },
     {
         "src": "images/costela.jpg",
-        "sizes": "256x256",
+        "sizes": "225x225",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "images/frango_curry.jpg",
-        "sizes": "256x256",
+        "sizes": "225x225",
         "type": "image/png",
         "purpose": "any"
     },
@@ -58,7 +58,7 @@
     },
     {
         "src": "images/ravioli.jpg",
-        "sizes": "256x256",
+        "sizes": "225x225",
         "type": "image/png",
         "purpose": "any"
     }
