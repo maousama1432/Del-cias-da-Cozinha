@@ -53,11 +53,18 @@ header h2 {
 
 /* Conteúdo Principal */
 main {
+    display: flex;
     padding: 2rem;
     text-align: center;
+    gap: 15px;
+    margin: 15px;
 }
 
 article {
+    gap: 15px;
+    margin: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 2rem 0;
     background-color: #fff;
     border-radius: 8px;
@@ -68,8 +75,9 @@ article {
 }
 
 article img {
-    width: 100%;
-    height: auto;
+    
+    width: auto;
+    height: 200px;
     border-radius: 8px;
     margin-bottom: 1rem;
 }

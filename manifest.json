@@ -1,61 +1,17 @@
 {
-    "name": "Receitas Deliciosas",
-    "short_name": "Receitas",
-    "description": "Aplicativo de receitas com categorias de massas, doces e carnes, incluindo imagens, ingredientes e modo de preparo.",
+    "id": "/index.html",
+    "name": "PWA de receitas",
+    "short_name": "PWA",
+    "icons": [
+        {
+            "src": "images/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "lang": "pt-BR",
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#4CAF50",
-    "orientation": "portrait",
-    "icons": [
-    {
-        "src": "images/brigadeiro.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
-    },
-    {
-        "src": "images/pudim.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
-    },
-    {
-        "src": "images/torta_limao.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
-    },
-    {
-        "src": "images/bife_parmegiana.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
-    },
-    {
-        "src": "images/costela.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
-    },
-    {
-        "src": "images/frango_curry.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
-    },
-    {
-        "src": "images/espaguete.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
-    },
-    {
-        "src": "images/lasanha.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
-    },
-    {
-        "src": "images/ravioli.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
-    }
-    ],
-    "categories": ["food", "cooking", "recipes"],
-    "lang": "pt-BR",
-    "scope": "/",
-    "display_override": ["fullscreen", "standalone"]
-}  
+    "background_color": "white",
+    "theme_color": "white"
+}
