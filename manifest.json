@@ -10,52 +10,74 @@
     "icons": [
     {
         "src": "images/brigadeiro.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
     },
     {
         "src": "images/pudim.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
     },
     {
         "src": "images/torta_limao.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
     },
     {
         "src": "images/bife_parmegiana.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
     },
     {
         "src": "images/costela.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
     },
     {
         "src": "images/frango_curry.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
     },
     {
         "src": "images/espaguete.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
     },
     {
         "src": "images/lasanha.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
     },
     {
         "src": "images/ravioli.jpg",
-        "sizes": "144x144",
-        "type": "image/jpeg"
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+    }
+    ],
+    "screenshots": [
+    {
+        "src": "/screenshots/receitas-wide.png",
+        "sizes": "1920x1080",
+        "type": "image/png",
+        "form_factor": "wide"
+    },
+    {
+        "src": "/screenshots/receitas-mobile.png",
+        "sizes": "1080x1920",
+        "type": "image/png"
     }
     ],
     "categories": ["food", "cooking", "recipes"],
     "lang": "pt-BR",
     "scope": "/",
     "display_override": ["fullscreen", "standalone"]
-}  
+}
