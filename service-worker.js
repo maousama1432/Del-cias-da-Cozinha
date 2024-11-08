@@ -9,10 +9,15 @@ const urlsToCache = [
     '/js/app.js',
     '/images/espaguete.jpg',
     '/images/brigadeiro.jpg',
-    '/images/bife_parmegiana.jpg'
+    '/images/bife_parmegiana.jpg',
+    '/images/costela.jpg',
+    '/images/frango_curry.jpg',
+    '/images/lasanha.jpg',
+    '/images/pudim.jpg',
+    '/images/ravioli.jpg',
+    '/images/torta_limao.jpg'
 ];
 
-// Instalando o Service Worker e adicionando os recursos ao cache
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
@@ -23,7 +28,6 @@ self.addEventListener('install', (event) => {
     );
 });
 
-// Recuperando os recursos do cache
 self.addEventListener('fetch', (event) => {
     event.respondWith(
         caches.match(event.request)
@@ -36,7 +40,6 @@ self.addEventListener('fetch', (event) => {
     );
 });
 
-// Atualizando o Service Worker e limpando o cache antigo
 self.addEventListener('activate', (event) => {
     const cacheWhitelist = [CACHE_NAME];
     event.waitUntil(

@@ -1,0 +1,41 @@
+{
+    "name": "Receitas Deliciosas",
+    "short_name": "Receitas",
+    "description": "Aplicativo de receitas com categorias de massas, doces e carnes, incluindo imagens, ingredientes e modo de preparo.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "categories": ["food", "cooking", "recipes"],
+    "lang": "pt-BR",
+    "scope": "/",
+    "display_override": ["fullscreen", "standalone"],
+    "screenshots": [
+      {
+        "src": "/screenshots/receitas-home.png",
+        "type": "image/png",
+        "sizes": "1080x1920",
+        "label": "Página inicial"
+      },
+      {
+        "src": "/screenshots/receitas-categoria.png",
+        "type": "image/png",
+        "sizes": "1080x1920",
+        "label": "Categoria de receitas"
+      }
+    ]
+  }
+  
