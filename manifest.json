@@ -8,34 +8,54 @@
     "theme_color": "#4CAF50",
     "orientation": "portrait",
     "icons": [
-      {
-        "src": "/icons/icon-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "/icons/icon-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
+    {
+        "src": "images/brigadeiro.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/pudim.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/torta_limao.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/bife_parmegiana.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/costela.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/frango_curry.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/espaguete.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/lasanha.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/ravioli.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    }
     ],
     "categories": ["food", "cooking", "recipes"],
     "lang": "pt-BR",
     "scope": "/",
-    "display_override": ["fullscreen", "standalone"],
-    "screenshots": [
-      {
-        "src": "/screenshots/receitas-home.png",
-        "type": "image/png",
-        "sizes": "1080x1920",
-        "label": "Página inicial"
-      },
-      {
-        "src": "/screenshots/receitas-categoria.png",
-        "type": "image/png",
-        "sizes": "1080x1920",
-        "label": "Categoria de receitas"
-      }
-    ]
-  }
-  
+    "display_override": ["fullscreen", "standalone"]
+}  
