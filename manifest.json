@@ -10,55 +10,55 @@
     "icons": [
     {
         "src": "images/brigadeiro.jpg",
-        "sizes": "512x512",
+        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "images/pudim.jpg",
-        "sizes": "512x512",
+        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "images/torta_limao.jpg",
-        "sizes": "512x512",
+        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "images/bife_parmegiana.jpg",
-        "sizes": "512x512",
+        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "images/costela.jpg",
-        "sizes": "512x512",
+        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "images/frango_curry.jpg",
-        "sizes": "512x512",
+        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "images/espaguete.jpg",
-        "sizes": "512x512",
+        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "images/lasanha.jpg",
-        "sizes": "512x512",
+        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "images/ravioli.jpg",
-        "sizes": "512x512",
+        "sizes": "256x256",
         "type": "image/png",
         "purpose": "any"
     }
