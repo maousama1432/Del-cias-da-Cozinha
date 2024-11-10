@@ -1,11 +1,12 @@
-let cacheName = "delicias-da-cozinha-v1";
+let cacheName = "delicias-da-cozinha-v2";
 let filesToCache = [ '/',
     '/index.html',
     '/massas.html',
     '/doces.html',
     '/carnes.html',
     '/css/styles.css',
-    '/js/app.js',
+    '/images/icon.png',
+    '/images/logo.png',
     '/images/espaguete.jpg',
     '/images/brigadeiro.jpg',
     '/images/bife_parmegiana.jpg',

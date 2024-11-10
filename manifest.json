@@ -1,7 +1,7 @@
 {
-    "id": "/index.html",
+    "id": "/",
     "name": "Delícias da Cozinha",
-    "short_name": "PWA",
+    "short_name": "Cozinha",
     "icons": [
         {
             "src": "images/icon.png",

@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "serve ."
   },
-  "author": "",
+  "author": "Victor Hugo e Felipe Marques",
   "license": "ISC",
   "dependencies": {
     "serve": "^14.2.4"
