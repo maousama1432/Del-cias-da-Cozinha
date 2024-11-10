@@ -3,15 +3,53 @@
     "name": "PWA de receitas",
     "short_name": "PWA",
     "icons": [
-        {
-            "src": "images/icon.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
+    {
+        "src": "images/brigadeiro.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/pudim.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/torta_limao.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/bife_parmegiana.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/costela.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/frango_curry.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/espaguete.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/lasanha.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    },
+    {
+        "src": "images/ravioli.jpg",
+        "sizes": "144x144",
+        "type": "image/jpeg"
+    }
     ],
     "lang": "pt-BR",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "white",
-    "theme_color": "white"
-}
+    "scope": "/",
+    "display_override": ["fullscreen", "standalone"]
+}  
