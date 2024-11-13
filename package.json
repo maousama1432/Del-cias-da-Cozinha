@@ -1,13 +1,13 @@
 {
-  "name": "receita",
+  "name": "delicias-da-cozinha",
   "version": "1.0.0",
   "description": "Aplicativo de receitas organizadas por categoria.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "serve ."
+    "start": "serve .",
+    "build": "echo \"Não há build necessário para este projeto.\" && exit 0"
   },
-  "author": "",
+  "author": "Felipe Marques Ramires & Victor Hugo Lorenço de Carvalho",
   "license": "ISC",
   "dependencies": {
     "serve": "^14.2.4"

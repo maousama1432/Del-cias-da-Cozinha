@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delícias da Cozinha</title>
-    <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="/images/icon.png"  />
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/icon.png">
 </head>
 <body>
     <header>
         <nav>
             <div class="container">
                 <div class="logo">
-                    <a href="index.html">   <img src="images/logo.png" alt="Logo" /></a>
-                 
+                    <a href="index.html"><img src="images/logo.png" alt="Logo" /></a>
                 </div>
                 <div class="nav-links">
                     <a class="nav-link" href="massas.html">Massas</a>
@@ -25,13 +24,9 @@
         </nav>
     </header>
     <main>
-        <div class="home">
-            <h2>Bem-vindo(a) ao Delícias da Cozinha</h2> 
-            <p>Explore nossas categorias e descubra pratos deliciosos para você e sua família.</p>
-        </div>
-        
+        <h1>Bem-vindo ao Delícias da Cozinha!</h1>
+        <p>Explore receitas deliciosas organizadas em categorias.</p>
     </main>
-
     <footer>
         <div class="footer-container">
             <div class="footer-logo">
@@ -60,8 +55,16 @@
             <p>&copy; 2024 Delícias da Cozinha. Todos os direitos reservados.</p>
         </div>
     </footer>
-    
 
-
+    <script>
+        // Verificando e registrando a service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').then((registration) => {
+                console.log('Service Worker registrado com sucesso: ', registration);
+            }).catch((error) => {
+                console.log('Falha ao registrar o Service Worker: ', error);
+            });
+        }
+    </script>
 </body>
 </html>
