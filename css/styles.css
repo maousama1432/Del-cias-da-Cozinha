@@ -215,3 +215,8 @@ footer {
        
     }
 }
+
+.main{
+    flex-direction: column;
+    height: 65vh;
+}

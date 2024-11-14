@@ -2,12 +2,12 @@
 let cacheName = "delicias-da-cozinha-v1";
 let filesToCache = [
   '/',
-  '/index.html',
-  '/massas.html',
-  '/doces.html',
-  '/carnes.html',
+  '/index',
+  '/massas',
+  '/doces',
+  '/carnes',
   '/css/styles.css',
-  '/js/app.js',
+  '/js/main.js',
   '/images/espaguete.jpg',
   '/images/brigadeiro.jpg',
   '/images/bife_parmegiana.jpg',
@@ -17,8 +17,47 @@ let filesToCache = [
   '/images/pudim.jpg',
   '/images/ravioli.jpg',
   '/images/torta_limao.jpg',
-  '/offline.html'  // Página de fallback quando offline
+  '/offline' 
 ];
+
+
+// let filesToCache = [
+//   '/',
+//   '/index.html',
+//   '/massas.html',
+//   '/doces.html',
+//   '/carnes.html',
+//   '/css/styles.css',
+//   '/images/icon.png',
+//   '/images/logo.png',
+//   '/images/espaguete.jpg',
+//   '/images/brigadeiro.jpg',
+//   '/images/bife_parmegiana.jpg',
+//   '/images/costela.jpg',
+//   '/images/frango_curry.jpg',
+//   '/images/lasanha.jpg',
+//   '/images/pudim.jpg',
+//   '/images/ravioli.jpg',
+//   '/images/torta_limao.jpg',
+//   '/offline.html' 
+// ];
+// let filesToCache2 =  [ '/',
+//   '/index.html',
+//   '/massas.html',
+//   '/doces.html',
+//   '/carnes.html',
+//   '/css/styles.css',
+//   '/images/icon.png',
+//   '/images/logo.png',
+//   '/images/espaguete.jpg',
+//   '/images/brigadeiro.jpg',
+//   '/images/bife_parmegiana.jpg',
+//   '/images/costela.jpg',
+//   '/images/frango_curry.jpg',
+//   '/images/lasanha.jpg',
+//   '/images/pudim.jpg',
+//   '/images/ravioli.jpg',
+//   '/images/torta_limao.jpg'];
 
 // Instalando a service worker e armazenando arquivos no cache
 self.addEventListener("install", (e) => {
