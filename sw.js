@@ -8,6 +8,8 @@ let filesToCache = [
   '/carnes',
   '/css/styles.css',
   '/js/main.js',
+  '/images/logo.png',
+  '/images/icon.png',
   '/images/espaguete.jpg',
   '/images/brigadeiro.jpg',
   '/images/bife_parmegiana.jpg',
